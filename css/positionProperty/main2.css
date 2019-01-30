@@ -1,0 +1,32 @@
+#container{
+  width:200px;
+  height:200px;
+  background: blue;
+  position:relative;
+}
+
+#center-me{
+  background: red;
+  height: 100px;
+  width: 100px; 
+  margin: auto;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+}
+
+#container2{
+  width:200px;
+  height:200px;
+  background: blue;
+  position:relative;
+  margin: 20px;
+}
+#center-me2{
+  background: red;
+  height: 100px;
+  width: 100px; 
+  margin: 0 auto;
+}

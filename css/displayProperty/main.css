@@ -1,0 +1,17 @@
+p {
+  background-color: grey;
+  display: inline;
+}
+a {
+  background-color: yellowgreen;
+  /* display: block; */
+}
+ul {
+  background-color: lightskyblue;
+  display: inline;
+}
+
+ul li {
+  background-color: lightcoral;
+  display: inline;
+}

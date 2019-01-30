@@ -1,0 +1,136 @@
+body *{
+	padding: 0px;
+	margin: 0px;
+	font-family: Arial;
+}
+
+.container {
+  width: 990px;
+  min-height: 800px;
+  background-color: #4e4a4a;
+  margin: 0 auto;
+}
+
+    .header {
+        background-color: #f1f1f1;
+        max-height: 60px;
+        padding: 15px 0 15px 25px;
+    }
+
+    .header h1{
+        display: inline-block;
+        width: 510px;
+    }
+
+    .header h2{
+        display: inline-block;
+        width: 430px;
+    }
+
+		.main {
+				display: inline-block;
+				width: 990px;
+		}
+
+				.main .image {
+						display: inline-block;
+						border: 6px solid lightgrey;
+						margin: 20px 0 0 20px;
+				}
+
+				.main .about-me {
+						width: 500px;
+						display: inline-block;
+						vertical-align: top;
+						margin: 20px 0 0 20px;
+				}
+
+				.main .about-me h2 {
+					display: block;
+						padding: 10px 0 10px 10px;
+						color: white;
+						margin: 0 auto;
+						background-color: #999999;
+				}
+
+				.main .about-me p {
+						display: block;
+						background-color: #ede8f3;
+						margin: 0 auto;
+						padding: 15px;
+						font-size: 18px;
+						min-height: 197px;
+				}
+
+				.main p a {
+						color: black;
+				}
+
+				.main .card {
+						width: 300px;
+						min-height: 700px;
+						background-color: #ede8f3;
+						display: inline-block;
+						vertical-align: top;
+						margin: 20px 0 0 20px;
+				} 
+
+					.card h2 {
+							margin: 0 auto;
+							background-color: #999999;
+							padding: 10px 0 10px 10px;
+							color: white;
+					}
+
+					.card p {
+							padding: 0 10px;
+							min-height: 215px;
+					}
+
+					.card ul { 
+							padding: 5px;
+					}
+
+					.card ul li {
+							padding: 7px;
+							display: inline-block;
+					}
+
+					.card a {
+							background-color: green;
+							border-radius: 10px;
+							padding: 5px;
+							border: 1px solid black;
+							color: white;
+							text-decoration: none; 
+							margin: 10px 80px;
+					}
+
+
+		.main .footer {
+				width: auto;        
+				background-color: #f1f1f1;
+				text-align: center;
+				min-height: 70px;
+				margin-top: 20px;
+				padding-top: 5px;
+		}
+
+				.footer p {
+						display: inline-block;
+						font-size: 18px;
+				}
+
+				.footer ul {
+						padding: 20px;
+				}
+
+				.footer ul li{
+						display: inline-block;
+						font-size: 18px;
+						font-style: italic;
+				}
+
+				.footer ul li a{
+						color: black;
+				}

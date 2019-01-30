@@ -1,0 +1,57 @@
+.container {
+  width: 924px;
+  margin: 20px auto;
+}
+
+h1 {
+  background-color: lightgrey;
+  padding: 30px
+
+}
+
+p {
+  background-color: lightgrey;
+  padding: 30px;
+  font-size: 24px;
+}
+
+#second-p {
+    background-color: lightyellow;
+}
+
+@media only screen and (min-width: 1024) {
+
+}
+
+@media only screen and (min-width: 481px) and (max-width: 1023px){
+    .container {
+      width: 500px;
+      margin: 20px auto;
+    }  
+    p {
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    #second-p {
+      font-size: 14px;
+      padding: 20px;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width: 480px){
+    .container {
+      width: 280px;
+      margin: 20px auto;
+    }
+
+    p {
+      padding: 20px;
+      font-size: 10px;
+    }
+
+    #second-p {
+      padding: 15px;
+      font-size: 10px;
+    }
+}

@@ -1,0 +1,13 @@
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  border: 5px solid black;
+  vertical-align: top;
+}
+

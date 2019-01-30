@@ -1,0 +1,15 @@
+Create:
+
+INSERT INTO authors (id, name, last_name, created_at, updated_at) VALUES (4,'Christopher', 'Nolan', Now(), Now());
+
+Read:
+
+SELECT * FROM authors;
+
+Update:
+
+UPDATE authors SET name="Qendresa" WHERE id=1;
+
+Delete:
+
+DELETE from authors WHERE id=1;

@@ -12,6 +12,7 @@ function b(){
 
 console.log(b() + b());
 
+
 console.log('-------');
 
 function c(b) {
